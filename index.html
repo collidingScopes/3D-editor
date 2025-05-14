@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hand-Tracked Interactive Cube</title>
+  <link rel="stylesheet" href="styles.css">
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="3D Shape Editor">
+    <meta name="description" content="use hand gestures to edit 3D shapes">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://collidingscopes.github.io/3D-editor/">
+    <meta property="og:title" content="3D Shape Editor">
+    <meta property="og:description" content="use hand gestures to edit 3D shapes">
+    <meta property="og:image" content="https://raw.githubusercontent.com/collidingScopes/3D-editor/main/demo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://collidingscopes.github.io/3D-editor/">
+    <meta property="twitter:title" content="3D Shape Editor">
+    <meta property="twitter:description" content="use hand gestures to edit 3D shapes">
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/collidingScopes/3D-editor/main/demo.png">
+
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="eb59c81c-27cb-4e1d-9e8c-bfbe70c48cd9"></script>
+
+</head>
+<body>
+  <video id="webcam" autoplay playsinline></video>
+  <canvas id="canvas"></canvas>
+  <div id="three-canvas"></div>
+  <div id="color-control">
+    <canvas id="color-picker-canvas" width="150" height="150"></canvas>
+  </div>
+
+  <span id="links-para"><a href="https://x.com/measure_plan" target="_blank">Twitter</a> | <a href="https://www.instagram.com/stereo.drift/" target="_blank">Instagram</a> | <a href="https://github.com/collidingScopes/3D-editor" target="_blank">Code</a></span>
+  <span id="coffee-link"><a href="https://buymeacoffee.com/stereodrift" target="_blank">Support my free tutorials & code ❤️</a></span>  
+
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+</body>
+
+<script src="main.js"></script>
+
+</html>
