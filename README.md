@@ -2,10 +2,13 @@
 
 Edit 3D shapes with natural hand gestures.
 
-> right hand: pinch to grab / move a corner of the cube
-> left hand: make a fist and move to rotate the shape
+* right hand: pinch to grab / move a corner of the cube
+* pinch and drag in the color wheel
+* left hand: make a fist and move to rotate the shape
 
-Demo powered by threejs / WebGL / MediaPipe.
+Built with threejs / WebGL / MediaPipe.
+
+Video demo: [https://x.com/measure_plan/status/1922648004684632188](https://x.com/measure_plan/status/1922648004684632188)
 
 <img src="demo.png">
 
