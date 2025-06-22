@@ -8,13 +8,9 @@ Edit 3D shapes with natural hand gestures.
 
 Built with threejs / WebGL / MediaPipe.
 
-Video demo: [https://x.com/measure_plan/status/1922648004684632188](https://x.com/measure_plan/status/1922648004684632188)
+[Video](https://youtu.be/QtXScN6vgw4?si=65yozE20cQ4WWlYo) | [Live Demo](https://collidingscopes.github.io/3D-editor/) | [More Code & Tutorials](https://funwithcomputervision.com/)
 
 <img src="demo.png">
-
-## Demo
-
-Try the live demo: [https://collidingscopes.github.io/3D-editor/](https://collidingscopes.github.io/3D-editor/)
 
 ## Requirements
 
@@ -53,12 +49,16 @@ MIT License
 
 ## Related Projects
 
+I've released several computer vision projects (with code + tutorials) here:
+[Fun With Computer Vision](https://www.funwithcomputervision.com/)
+
+You can purchase lifetime access and receive the full project files and tutorials. I'm adding more content regularly 🪬
+
 You might also like some of my other open source projects:
 
 - [Threejs shape creator](https://collidingScopes.github.io/shape-creator-tutorial) - create / control 3D shapes with threejs and MediaPipe computer vision
 - [Threejs hand tracking tutorial](https://collidingScopes.github.io/threejs-handtracking-101) - Basic hand tracking setup with threejs and MediaPipe computer vision
 - [Particular Drift](https://collidingScopes.github.io/particular-drift) - Turn photos into flowing particle animations
-- [Liquid Logo](https://collidingScopes.github.io/liquid-logo) - Transform logos and icons into liquid metal animations
 - [Video-to-ASCII](https://collidingScopes.github.io/ascii) - Convert videos into ASCII pixel art
 
 ## Contact

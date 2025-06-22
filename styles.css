@@ -33,28 +33,73 @@ body, html {
   z-index: 10;
 }
 
-a {
-    color: #0000FF !important;
+.text-box {
+    padding: 8px 15px;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    border-radius: 4px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    border: 2px solid rgb(53, 47, 108);
+    box-shadow: 3px 3px 0px rgb(23, 17, 77);
+    font-size: clamp(13px, 2vw, 15px);
+    text-align: center;
+    z-index: 200;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out, bottom 0.3s ease-in-out, box-shadow 0.2s ease;
 }
 
-#links-para{
+#info-text {
     position: absolute;
-    bottom: 5px;
-    left: 5px;
-    font-family: Helvetica, sans-serif;
-    font-size: 16px;
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 10px;
-    z-index:1000;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 15px;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    border-radius: 4px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    border: 2px solid rgb(53, 47, 108);
+    box-shadow: 3px 3px 0px rgb(23, 17, 77);
+    font-size: clamp(20px, 4vw, 30px);
+    text-align: center;
+    z-index: 200;
+}
+
+#instruction-text {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    pointer-events: none;
+    text-align: left;
+    max-width: 300px;
+}
+
+#social-links {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    text-align: left;
 }
 
 #coffee-link {
-  position: absolute;
-  bottom: 5px;
-  right: 5px;
-  font-family: Helvetica, sans-serif;
-  font-size: 16px;
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 10px;
-  z-index:1000;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#video-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#logo-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#logo {
+    font-size: 2em;
 }
